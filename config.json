@@ -1,0 +1,138 @@
+{
+    
+    "city": "Vilnius,Lithuania",
+    "full_name": "Muzaffar Taghiyev",
+    "nationality":"Azerbaijani",
+    "age": "26",
+    "freelance": "Available",
+    "phone": "+370 617 46 491",
+    "email": "muzaffar.taghiyev@gmail.com",
+    "title": "Python Developer & Automation Specialist",
+    "social_networks": [
+    {"name": "github", "link": "https://github.com/muzeffertagiyev"},
+    {"name": "linkedin", "link": "https://www.linkedin.com/in/muzaffar-taghiyev/"},
+    {"name": "hackerrank", "link": "https://www.hackerrank.com/profile/t_muzeffer_1998"},
+    {"name": "facebook", "link": "https://www.facebook.com/profile.php?id=100010259614575"},
+    {"name": "twitter", "link": "https://twitter.com/MuzuTagiyev"},
+    {"name": "instagram", "link": "https://instagram.com/muzeffer?igshid=MzNlNGNkZWQ4Mg=="}
+    ],
+    
+    
+    "data_typed_items": "Python Developer, Web Scraping Specialist, RPA Developer with Python Selenium, QA Engineer with Python Selenium and Pytest,API Creator using Postman, Django & Flask Web Developer",
+      
+    
+    "about":{
+      "top_content": "I am a highly skilled Python developer specializing in Web Development, Web scraping, RPA, and QA. My expertise lies in building efficient solutions to automate and simplify complex tasks.",
+      "middle_content": "Aspiring Software Developer & QA Enthusiast | Python, Flask, Django, Web Scraping, RPA, QA Automation, API Creation with Postman",
+      "lower_content": "I have a strong passion for creating efficient and effective solutions to complex problems using Python. My core skills include developing web scraping applications with Selenium and BeautifulSoup, building RESTful APIs with Flask, and implementing RPA solutions. Additionally, I have a solid foundation in Quality Assurance, focusing on automated testing with Selenium and pytest. I stay updated with the latest trends in software development and enjoy participating in online coding challenges in my free time."
+      
+      },
+      
+    
+    "resume":[
+        {"other_skills":[
+          {"language_skills": ["Azerbaijani - Native", "English - C1","Russian - B1","Turkish - C2", "German - A1"]},
+          {"soft_skills": ["Time Management", "Teamwork", "Communicative","Quick Learner","Attention to detail","Problem solving","Adaptibility"]}
+        ]},
+        {"education": [
+          {"degree": "Master's degree in Computer Engineering-Data Science", 
+          "institution": "Vistula University - Warsaw,Poland",
+          "period":"October 2022 - April 2024",
+          "description":" - During my Master's program, I gained comprehensive knowledge and hands-on experience in several key areas including Python3, image processing and recognition, data analytics and visualization with Python, Robotic Process Automation (RPA), Python web scraping (Selenium & BeautifulSoup), QA automation, and the Flask framework."},
+          {"degree": "Bachelor's degree in Computer Engineering", "institution": "Azerbaijan State Oil and Industry University - Baku,Azerbaijan",
+            "period":"September 2015 - June 2019",
+            "description":" - My Bachelor's degree provided a solid foundation in Help Desk support, computer networking, front-end development, data structures and algorithms, AutoCAD, computer architecture, operating systems, software engineering, and cybersecurity."}
+        ]},
+        {"professional_experience": [
+          {"title": "Customs Declarant", 
+          "company": "Socar Polymer LLC (Logistics Department) - Sumqayit,Azerbaijan ",
+          "period":"April 2019 - October 2022",
+          "duties":["<strong>Certificate - Most Supportive Employee of 2021</strong>","Reviewing of customs documentation to ensure all information has been provided before customs clearance","Resolution of rejected customs entries","Monthly update of exchange rates and commodity codes","Ensuring that all necessary permits and clearances are obtained for exported items"]},
+          {"title": "Help Desk Internship", 
+            "company": "Mobicom LLC - Baku, Azerbaijan",
+            "period":"February 2019 - June 2019",
+            "duties":["Responding to client support queries","Diagnosing issues with computer software, peripherals, and hardware","Providing support in person , over the phone or via remote access","Running software diagnostic tools and physically inspecting hardware systems","Talking to clients through basic problem-solving processes"]}
+        ]},
+        
+        {"certificates": [
+          {"title": "Web Development Path with Intermediate Django", 
+          "issued_by": "Patika.dev",
+          "date":"December 2023",
+          "link": "https://academy.patika.dev/certificates/fd09e054",
+          "skills":"· Django · Nosql-Mongodb · Advanced Python3 · Object-Oriented Programming (OOP)"},
+          {"title": "100 Days of Code: The Complete Python Pro Bootcamp for 2023", 
+          "issued_by": "Udemy",
+          "date":"October 2023",
+          "link": "https://www.udemy.com/certificate/UC-d5b5c27c-0c97-47f7-9d74-913bfb846758/",
+          "skills":"· API testing using Postman · Python Web Scraping(Selenium & BeautifulSoup) · RESTful API with Flask · Cascading Style Sheets (CSS) · Twilio · NumPy · Flask · HTML5 · SQLAlchemy · JSON · Bootstrap · Working with APIs · Data Analytics and Visualization with python · Turtle Graphics · pandas · CSV · Python3 · Simple Mail Transfer Protocol (SMTP) · Plotly · Tkinter"},
+          
+          {"title": "SQL (Intermediate) Certificate", 
+          "issued_by": "HackerRank",
+          "date":"October 2023",
+          "link": "https://www.hackerrank.com/certificates/f098c3aecab9",
+          "skills":"· Intermediate SQL Joins · SQL Intermadiate"},
+          
+          {"title": "Linux Mastery: Master the Linux Command Line in 11.5 Hours ", 
+          "issued_by": "Udemy",
+          "date":"May 2023",
+          "link": "https://www.udemy.com/certificate/UC-a3dcfd66-85f2-4cc1-b40e-dc76006e297c/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email",
+          "skills":"· Bash script · Linux commands · Crontab"},
+          
+          {"title": "Python development Industry Training 4 weeks(20 hours + Individual Work)", 
+          "issued_by": "Brainnest",
+          "date":"February 2023",
+          "link": "#",
+          "skills":"· FTP with Python · Python Scripts · Working with APIs · Python3 · Tkinter · pytest · Unittest"}
+          
+        ]},
+        
+        {"skills": [
+          {"category": "Python Development", "skills": [
+            {"name": "Python3", "value": "90"},
+            {"name": "Flask Framework", "value": "80"},
+            {"name": "Django Framework", "value": "50"},
+            {"name": "RESTFul API with Flask using Postman", "value": "60"}
+          ]},
+          {"category": "Web Scraping & Automation", "skills": [
+            {"name": "Python Web Scraping (Selenium & BeautifulSoup)", "value": "100"},
+            {"name": "RPA with Python", "value": "90"},
+            {"name": "Selenium", "value": "85"}
+          ]},
+          {"category": "Quality Assurance", "skills": [
+            {"name": "Automated Testing with Selenium", "value": "80"},
+            {"name": "pytest", "value": "70"},
+            {"name": "Q&A", "value": "50"},
+            {"name": "API Creation with Postman", "value": "75"}
+          ]},
+          {"category": "Data Analysis", "skills": [
+            {"name": "Intermediate SQL", "value": "80"},
+            {"name": "Pandas", "value": "85"},
+            {"name": "NumPy", "value": "80"},
+            {"name": "Matplotlib", "value": "70"},
+            {"name": "Seaborn", "value": "50"}
+          ]},
+          {"category": "Database Management", "skills": [
+            {"name": "SQLAlchemy", "value": "100"},
+            {"name": "PostgreSQL", "value": "70"},
+            {"name": "phpMyAdmin", "value": "70"}
+          ]},
+          {"category": "Other Skills", "skills": [
+            {"name": "Linux Commands", "value": "80"},
+            {"name": "GitHub", "value": "70"},
+            {"name": "HTML5", "value": "100"},
+            {"name": "CSS3", "value": "80"},
+            {"name": "Bootstrap", "value": "80"},
+            {"name": "JavaScript", "value": "30"},
+            {"name": "Microsoft Office", "value": "70"},
+            {"name": "Jira & Trello", "value": "50"}
+          ]}
+        ]}
+          
+      ],
+    
+    
+    
+    "contact":{
+      "address": "J.Balčikonio g.3, Vilnius,Lithuania, LT-08247",
+      "address_map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1152.2121508115224!2d25.282593845305485!3d54.71975111424548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd914bb933d827%3A0xb1d772006abe01ff!2sJ.%20Bal%C4%8Dikonio%20g.%203%2C%2008200%20Vilnius!5e0!3m2!1sen!2slt!4v1689763045589!5m2!1sen!2slt"}
+  }

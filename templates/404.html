@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+404 - Not Found   :
+{% endblock %}
+
+
+{% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center"> <!-- Center the content horizontally -->
+    <div class="col-md-6"> <!-- Use a column that takes up 6 out of 12 available columns for medium-sized screens -->
+      <div class="content text-center">
+        <h1 class="heading">Not Found Error - 404</h1>
+        <p class="description">Please make sure that you use the correct URL address</p>
+        
+        <button type="button" class="btn btn-primary"><a href="{{url_for('home')}}" class="nav-link ">Back to Home Page</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
