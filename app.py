@@ -64,8 +64,7 @@ def project(project_name):
                 'automation': 'Automated Process' 
             }
         project_category = category_mapping[project_type]
-        return render_template('portfolio-details.html', project=project,project_category=project_category)
-    
+        return render_template('project-details.html', project=project,project_category=project_category)
     
 
 

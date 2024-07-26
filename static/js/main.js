@@ -139,7 +139,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.project-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
