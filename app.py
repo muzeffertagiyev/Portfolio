@@ -46,6 +46,29 @@ def resume():
 def projects():
     return render_template('projects.html')
 
+@app.route('/project/<project_name>')
+def project(project_name):
+    # Find the project by ID
+    projects = personal_data['projects']
+    project = next((proj for proj in projects if proj['name'] == project_name), None)
+
+    if project:
+        project_type = project['filter_type']
+        project_category = ''
+
+        # Mapping filter types to human-readable categories
+        category_mapping = {
+                'rpa': 'Robot Process Automation Development',
+                'web': 'Web Development',
+                'gui': 'Graphic User Interface using Tkinter',
+                'automation': 'Automated Process' 
+            }
+        project_category = category_mapping[project_type]
+        return render_template('portfolio-details.html', project=project,project_category=project_category)
+    
+    
+
+
 # @app.route('/services')
 # def services():
 #     return render_template('services.html')
