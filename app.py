@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template, redirect, request, url_for, flash, jsonify
  
-from mail import EmailSend
+from mail import EmailSender
 
 import requests
 
@@ -9,7 +9,6 @@ personal_data_response = requests.get('https://api.npoint.io/4cfd616d85b1d70f0b8
 personal_data = personal_data_response.json()
 
 
-email_sender = EmailSend()
 
 app = Flask(__name__)
 
@@ -75,14 +74,20 @@ def project(project_name):
 @app.route('/contact', methods=['POST', 'GET'])
 def contact():
 
+
     try:
         if request.method == 'POST':
             name = request.form.get('name')
             email = request.form.get('email')
             subject = request.form.get('subject')
             message = request.form.get('message')
+            mobile_phone = request.form.get('mobile_phone')
 
-            email_sender.send_email(name,email,subject,message)
+            email_sender = EmailSender(user_name=name,user_email=email,user_mobile_phone=mobile_phone,subject=subject,user_message=message)
+
+            email_sender.send_user_message()
+            email_sender.send_confirmation_message()
+            
             flash('Email was sent successfully. Thank you for reaching me.','primary' )
             return redirect(url_for('contact'))
     except:

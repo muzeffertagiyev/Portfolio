@@ -169,3 +169,33 @@
 
 })()
 
+
+// for country flag as per country phone number code
+document.addEventListener("DOMContentLoaded", function() {
+  var input = document.querySelector("#mobile_phone");
+  var iti = window.intlTelInput(input, {
+    initialCountry: "auto",
+    nationalMode: false, // Show full international format as placeholder
+    geoIpLookup: function(callback) {
+      fetch("https://ipinfo.io?token=f459bc1138db43")
+        .then(response => response.json())
+        .then(data => {
+          callback(data.country);
+        });
+    },
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js"
+  });
+
+  // Set the initial country code in the input field
+  iti.promise.then(function() {
+    var countryData = iti.getSelectedCountryData();
+    input.value = "+" + countryData.dialCode + " ";
+  });
+
+  // Update the input field with the country code when a new country is selected
+  input.addEventListener("countrychange", function() {
+    var countryData = iti.getSelectedCountryData();
+    input.value = "+" + countryData.dialCode + " ";
+  });
+});
+
