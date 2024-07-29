@@ -9,7 +9,6 @@ personal_data_response = requests.get('https://api.npoint.io/4cfd616d85b1d70f0b8
 personal_data = personal_data_response.json()
 
 
-
 app = Flask(__name__)
 
 
