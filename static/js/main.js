@@ -187,3 +187,17 @@ document.addEventListener("DOMContentLoaded", function() {
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js"
   });
 });
+
+
+// for toggle right and left for the buy me a beer block
+document.getElementById('toggle-right').addEventListener('click', function() {
+  document.getElementById('beer-block').classList.add('hidden');
+  document.getElementById('toggle-right').classList.add('hidden');
+  document.getElementById('toggle-left').classList.remove('hidden');
+});
+
+document.getElementById('toggle-left').addEventListener('click', function() {
+  document.getElementById('beer-block').classList.remove('hidden');
+  document.getElementById('toggle-left').classList.add('hidden');
+  document.getElementById('toggle-right').classList.remove('hidden');
+});
