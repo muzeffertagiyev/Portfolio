@@ -116,6 +116,7 @@ class EmailSender:
                         <h2>Thank You for Contacting Me!</h2>
                         <p>Dear {self.user_name.title()},</p>
                         <p>Thank you for reaching out through my portfolio webpage. I have received your message and will get back to you as soon as possible.</p>
+                        </br>
                         <p>Best regards,</p>
                         <p>Muzaffar Taghiyev</p>
                         <p>muzaffar.taghiyev@gmail.com</p>
