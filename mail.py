@@ -28,106 +28,183 @@ class EmailSender:
 
     def compose_user_message(self):
         html_content = '''
-            <!DOCTYPE html>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <style>
-                        body {
-                            font-family: Arial, sans-serif;
-                            background-color: #f4f4f4;
-                            margin: 0;
-                            padding: 20px;
-                        }
-                        .container {
-                            background-color: #ffffff;
-                            padding: 20px;
-                            border-radius: 10px;
-                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                            max-width: 600px;
-                            margin: auto;
-                        }
-                        h2 {
-                            color: #333333;
-                        }
-                        p {
-                            color: #555555;
-                            line-height: 1.6;
-                        }
-                        .label {
-                            font-weight: bold;
-                            color: #333333;
-                        }
-                    </style>
-                </head>
-                '''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    font-family: 'Roboto', sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    background-color: #ffffff;
+                    padding: 30px;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    max-width: 600px;
+                    margin: auto;
+                }
+                .header {
+                    background-color: #007bff;
+                    padding: 20px;
+                    text-align: center;
+                    border-top-left-radius: 12px;
+                    border-top-right-radius: 12px;
+                    color: #ffffff;
+                }
+                .header h2 {
+                    margin: 0;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                .content {
+                    padding: 20px 0;
+                }
+                .content h2 {
+                    color: #333333;
+                    font-size: 22px;
+                }
+                .content p {
+                    color: #555555;
+                    line-height: 1.8;
+                    margin: 10px 0;
+                    font-size: 16px;
+                }
+                .label {
+                    font-weight: 500;
+                    color: #333333;
+                }
+                .footer {
+                    background-color: #f4f4f4;
+                    padding: 15px;
+                    text-align: center;
+                    border-bottom-left-radius: 12px;
+                    border-bottom-right-radius: 12px;
+                    font-size: 14px;
+                    color: #888888;
+                }
+            </style>
+        </head>
+    '''
         html_content += f'''
-                    <body>
-                        <div class="container">
-                            <h2>New Email from Portfolio Webpage</h2>
-                            <p><span class="label">Name:</span> {self.user_name.title()}</p>
-                            <p><span class="label">Email:</span> {self.user_email}</p>
-                            <p><span class="label">Mobile Phone:</span> {self.user_mobile_phone}</p>
-                            <p><span class="label">Message:</span></p>
-                            <p>{self.user_message}</p>
-                        </div>
-                    </body>
-                </html>
-                '''
-        
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h2>New Email from Portfolio Webpage</h2>
+                </div>
+                <div class="content">
+                    <p><span class="label">Name:</span> {self.user_name.title()}</p>
+                    <p><span class="label">Email:</span> {self.user_email}</p>
+                    <p><span class="label">Mobile Phone:</span> {self.user_mobile_phone}</p>
+                    <p><span class="label">Message:</span></p>
+                    <p>{self.user_message}</p>
+                </div>
+                <div class="footer">
+                    <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
+                </div>
+            </div>
+        </body>
+    </html>
+    '''
+    
         return html_content
 
     def compose_confirmation_message(self):
         html_content = '''<!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <style>
-                    body {
-                        font-family: Arial, sans-serif;
-                        background-color: #f4f4f4;
-                        margin: 0;
-                        padding: 20px;
-                    }
-                    .container {
-                        background-color: #ffffff;
-                        padding: 20px;
-                        border-radius: 10px;
-                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                        max-width: 600px;
-                        margin: auto;
-                    }
-                    h2 {
-                        color: #333333;
-                    }
-                    p {
-                        color: #555555;
-                        line-height: 1.6;
-                    }
-                </style>
-            </head>
-            '''
-
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    font-family: 'Roboto', sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    background-color: #ffffff;
+                    padding: 30px;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    max-width: 600px;
+                    margin: auto;
+                }
+                .header {
+                    background-color: #007bff;
+                    padding: 20px;
+                    text-align: center;
+                    border-top-left-radius: 12px;
+                    border-top-right-radius: 12px;
+                    color: #ffffff;
+                }
+                .header h2 {
+                    margin: 0;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                .content {
+                    padding: 20px 0;
+                }
+                .content h2 {
+                    color: #333333;
+                    font-size: 22px;
+                }
+                .content p {
+                    color: #555555;
+                    line-height: 1.8;
+                    margin: 10px 0;
+                    font-size: 16px;
+                }
+                .footer {
+                    background-color: #f4f4f4;
+                    padding: 15px;
+                    text-align: center;
+                    border-bottom-left-radius: 12px;
+                    border-bottom-right-radius: 12px;
+                    font-size: 14px;
+                    color: #888888;
+                }
+            </style>
+        </head>
+    '''
         html_content += f'''
-                <body>
-                    <div class="container">
-                        <h2>Thank You for Contacting Me!</h2>
-                        <p>Dear {self.user_name.title()},</p>
-                        <p>Thank you for reaching out through my portfolio webpage. I have received your message and will get back to you as soon as possible.</p>
-                        </br>
-                        <p>Best regards,</p>
-                        <p>Muzaffar Taghiyev</p>
-                        <p>muzaffar.taghiyev@gmail.com</p>
-                        <p>+37061746491</p>
-                    </div>
-                </body>
-            </html>
-            '''
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h2>Thank You for Contacting Me!</h2>
+                </div>
+                <div class="content">
+                    
+                    <p>Dear {self.user_name.title()},</p>
+                    <p>Thank you for reaching out through my portfolio webpage. I have received your message and will get back to you as soon as possible.</p>
+                    <br>
+                    <p>Best regards,</p>
+                    <p><strong>Muzaffar Taghiyev</strong></p>
+                    <p><a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
+                    <p>+37061746491</p>
+                
+                    
+                </div>
+                <div class="footer">
+                    <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
+                </div>
+            </div>
+        </body>
+    </html>
+    '''
         return html_content
-    
 
+
+
+
+# ./static/img/favicon.png
     def send_user_message(self):
         self.send_email(self.user_message_html,recipient_email,subject=f"Portfolio - {self.subject}")
 

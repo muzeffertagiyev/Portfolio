@@ -82,7 +82,7 @@ def contact():
             message = request.form.get('message')
             mobile_phone = request.form.get('mobile_phone')
 
-            email_sender = EmailSender(user_name=name,user_email=email,user_mobile_phone=mobile_phone,subject=subject,user_message=message)
+            email_sender = EmailSender(user_name=name,user_email=email.lower(),user_mobile_phone=mobile_phone,subject=subject,user_message=message)
 
             email_sender.send_user_message()
             email_sender.send_confirmation_message()
