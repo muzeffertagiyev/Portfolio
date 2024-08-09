@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// for toggle right and left for the buy me a beer block
+// for hiding and unhiding the beer-block
 document.getElementById('toggle-right').addEventListener('click', function() {
   document.getElementById('beer-block').classList.add('hidden');
   document.getElementById('toggle-right').classList.add('hidden');
