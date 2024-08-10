@@ -98,9 +98,9 @@ class EmailSender:
                     <h2>New Email from Portfolio Webpage</h2>
                 </div>
                 <div class="content">
-                    <p><span class="label">Name:</span> {self.user_name.title()}</p>
-                    <p><span class="label">Email:</span> {self.user_email}</p>
-                    <p><span class="label">Mobile Phone:</span> {self.user_mobile_phone}</p>
+                    <p><span class="label">🤖 </span> {self.user_name.title()}</p>
+                    <p><span class="label"> 📧 </span> {self.user_email}</p>
+                    <p><span class="label">📞 </span> {self.user_mobile_phone}</p>
                     <p><span class="label">--Message--</span></p>
                     <br></br>
                     
@@ -189,8 +189,10 @@ class EmailSender:
                     <br>
                     <p>Best regards,</p>
                     <p><strong>Muzaffar Taghiyev</strong></p>
-                    <p><a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
-                    <p>+37061746491</p>
+                    <p> 📧 <a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
+                    <p> <span>📞 </span>  +37061746491</p>
+
+    
                 </div>
                 <div class="footer">
                     <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
