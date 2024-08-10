@@ -101,7 +101,9 @@ class EmailSender:
                     <p><span class="label">Name:</span> {self.user_name.title()}</p>
                     <p><span class="label">Email:</span> {self.user_email}</p>
                     <p><span class="label">Mobile Phone:</span> {self.user_mobile_phone}</p>
-                    <p><span class="label">Message:</span></p>
+                    <p><span class="label">--Message--</span></p>
+                    <br></br>
+                    
                     <p>{self.user_message}</p>
                 </div>
                 <div class="footer">
@@ -189,8 +191,6 @@ class EmailSender:
                     <p><strong>Muzaffar Taghiyev</strong></p>
                     <p><a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
                     <p>+37061746491</p>
-                
-                    
                 </div>
                 <div class="footer">
                     <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
@@ -202,9 +202,6 @@ class EmailSender:
         return html_content
 
 
-
-
-# ./static/img/favicon.png
     def send_user_message(self):
         self.send_email(self.user_message_html,recipient_email,subject=f"Portfolio - {self.subject}")
 
