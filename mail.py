@@ -198,14 +198,14 @@ class EmailSender:
                     text-decoration: none;
                 }
                 .social-links a img {
-                    width: 40px;
-                    height: 40px;
+                    width: 35px;
+                    height: 35px;
                     border-radius: 50%;
                     display: block;
                     padding: 10px;
                     background: #f0f0f0;
                 }
-                .social-links a:hover {
+                .social-links a img:hover {
                     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
                 }
             
