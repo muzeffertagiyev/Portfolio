@@ -5,8 +5,12 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-email_api_endpoint = 'https://api.npoint.io/700baf4dcaef21388e91'
 
+personal_data_response = requests.get('https://api.npoint.io/4cfd616d85b1d70f0b80')
+personal_data = personal_data_response.json()
+
+
+email_api_endpoint = 'https://api.npoint.io/700baf4dcaef21388e91'
 response = requests.get(email_api_endpoint)
 email_data = response.json()
 
@@ -91,6 +95,7 @@ class EmailSender:
             </style>
         </head>
     '''
+        
         html_content += f'''
         <body>
             <div class="container">
@@ -173,34 +178,77 @@ class EmailSender:
                     font-size: 14px;
                     color: #888888;
                 }
+                .header img {
+                    max-width: 50px;
+                    height: 50px;
+                    margin-bottom: 15px;
+                }
+
+                .social-links {
+                    text-align: center;
+                    padding: 20px 0;
+                }
+                .social-links a {
+                    display: inline-block;
+                    background: #ffffff;
+                    border-radius: 50%;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                    margin: 0 8px;
+                    transition: box-shadow 0.3s ease-in-out;
+                    text-decoration: none;
+                }
+                .social-links a img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: block;
+                    padding: 10px;
+                    background: #f0f0f0;
+                }
+                .social-links a:hover {
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+                }
+            
             </style>
         </head>
     '''
+        social_links_html = ''
+        for social_network in personal_data['social_networks']:
+            social_links_html += f'''
+            <a href="{social_network['link']}" target="_blank">
+                <img src="{social_network['logo']}" alt="{social_network['name']}">
+            </a>
+        '''
         html_content += f'''
-        <body>
-            <div class="container">
-                <div class="header">
-                    <h2>Thank You for Contacting Me!</h2>
-                </div>
-                <div class="content">
-                    
-                    <p>Dear {self.user_name.title()},</p>
-                    <p>Thank you for reaching out through my portfolio webpage. I have received your message and will get back to you as soon as possible.</p>
-                    <br>
-                    <p>Best regards,</p>
-                    <p><strong>Muzaffar Taghiyev</strong></p>
-                    <p> 📧 <a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
-                    <p> <span>📞 </span>  +37061746491</p>
+            <body>
+                <div class="container">
+                    <div class="header">
+                        <img src="https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/favicon.png?raw=true" alt="Your Logo">
+                        <h2>Thank You for Contacting Me!</h2>
+                    </div>
+                    <div class="content">
+                        
+                        <p>Dear {self.user_name.title()},</p>
+                        <p>Thank you for reaching out through my portfolio webpage. I have received your message and will get back to you as soon as possible.</p>
+                        <br>
+                        <p>Best regards,</p>
+                        <p><strong>Muzaffar Taghiyev</strong></p>
+                        <p> 📧 <a href="mailto:muzaffar.taghiyev@gmail.com">muzaffar.taghiyev@gmail.com</a></p>
+                        <p> <span>📞 </span>  +37061746491</p>
 
-    
+                        <div class="social-links">
+                            {social_links_html}
+                        </div>
+
+        
+                    </div>
+                    <div class="footer">
+                        <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
+                    </div>
                 </div>
-                <div class="footer">
-                    <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
-                </div>
-            </div>
-        </body>
-    </html>
-    '''
+            </body>
+        </html>
+        '''
         return html_content
 
 
