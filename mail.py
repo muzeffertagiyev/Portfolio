@@ -5,11 +5,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-
+# for getting the social links i will use that
 personal_data_response = requests.get('https://api.npoint.io/4cfd616d85b1d70f0b80')
 personal_data = personal_data_response.json()
 
-
+# for getting the email data which i will use in smtp
 email_api_endpoint = 'https://api.npoint.io/700baf4dcaef21388e91'
 response = requests.get(email_api_endpoint)
 email_data = response.json()
@@ -205,10 +205,7 @@ class EmailSender:
                     padding: 10px;
                     background: #f0f0f0;
                 }
-                .social-links a img:hover {
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-                }
-            
+                
             </style>
         </head>
     '''
