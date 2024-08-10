@@ -201,3 +201,40 @@ document.getElementById('toggle-left').addEventListener('click', function() {
   document.getElementById('toggle-left').classList.add('hidden');
   document.getElementById('toggle-right').classList.remove('hidden');
 });
+
+
+//  -- - - - - - - - - For button back to top -  - - - - - - - - - - -
+
+//Get the button and label
+let mybutton = document.getElementById("btn-back-to-top");
+let scrollLabel = document.getElementById("scroll-label");
+
+// When the user scrolls down 20px from the top of the document, show the button and label
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+    scrollLabel.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+    scrollLabel.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+
+//  - - - - - - - - -- - -  - - - - -

@@ -22,13 +22,40 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*----Scroll top button----*/
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 47px;
+  right: 10px;
+  display: none;
+  z-index: 9999;
+  border-radius: 50%;
+  box-shadow: 20px 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Style for the label */
+#scroll-label {
+  position: fixed;
+  bottom: 17px;
+  right: 10px;
+  z-index: 9999;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f8d7da;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 20px 5px 10px rgba(0,0,0,0.2);
+}
 
 
 /*----Buy me a beer block----*/
 .beer-block {
   position: fixed;
   right: 20px;
-  bottom: 10px;
+  bottom: 50%;
   z-index: 9999;
   /* transform: translateY(-50%); */
   background-color: #fff;
@@ -64,7 +91,7 @@ h6 {
 /* Common button styles */
 .toggle-button {
   position: fixed;
-  bottom: 17px;
+  bottom: 51%;
   z-index: 9999;
   /* transform: translateY(-50%); */
   background-color: #f5b800;
@@ -104,6 +131,8 @@ h6 {
 
 
 /*------------------Buy me a beer block------------------------*/
+
+
 
 
 /*--------------------------------------------------------------
