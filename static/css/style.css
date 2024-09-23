@@ -107,6 +107,29 @@ h6 {
   box-shadow: 20px 5px 10px rgba(0,0,0,0.2);
   font-size: 24px; /* Adjust icon size */
 }
+/* -------- */
+.click-me{
+  position: fixed;
+  bottom: 170px;
+  z-index: 9999;
+  font-weight: bold;
+  background-color: #f5b800;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 5px 10px rgba(0,0,0,0.2);
+  font-size: 12px; /* Adjust icon size */
+  right:10px;
+}
+.click-me-hidden{
+  display: none;
+}
+
+ /* -- ---  */
 .toggle-button:hover{
   background-color:#bf9004; 
 }
@@ -130,10 +153,7 @@ h6 {
 }
 
 
-/*------------------Buy me a beer block------------------------*/
-
-
-
+/*------------------Buy me a beer block ends------------------------*/
 
 /*--------------------------------------------------------------
 # Header

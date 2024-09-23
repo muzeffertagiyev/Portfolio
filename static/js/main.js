@@ -203,6 +203,31 @@ document.getElementById('toggle-left').addEventListener('click', function() {
 });
 
 
+// ----------------- Click me toggle -----------------
+
+function showClickMe(){
+
+  setInterval(()=>{
+    const clickMeElement = document.getElementById('clickMe');
+
+    // Show the element 
+    
+    clickMeElement.style.display = 'flex'
+
+    // Hide the element after 10 secs
+
+    setTimeout(() => {
+      clickMeElement.style.display = 'none';
+    },10000)
+
+  },20000)
+}
+
+// start the loop after the page loads
+window.onload = showClickMe;
+
+// ----------------- Click me toggle ends -----------------
+
 //  -- - - - - - - - - For button back to top -  - - - - - - - - - - -
 
 //Get the button and label
