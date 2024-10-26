@@ -46,7 +46,7 @@ def projects():
 
 @app.route('/project/<project_name>')
 def project(project_name):
-    # Find the project by ID
+    # Find the project by name
     projects = personal_data['projects']
     project = next((proj for proj in projects if proj['name'] == project_name), None)
 
@@ -63,6 +63,8 @@ def project(project_name):
             }
         project_category = category_mapping[project_type]
         return render_template('project-details.html', project=project,project_category=project_category)
+    # If project is not found, redirect or show an error
+    return render_template('404.html'), 404
     
 
 
