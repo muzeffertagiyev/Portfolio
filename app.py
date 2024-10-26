@@ -48,7 +48,7 @@ def projects():
 def project(project_name):
     # Find the project by name
     projects = personal_data['projects']
-    project = next((proj for proj in projects if proj['name'] == project_name.replace('-',' ')), None)
+    project = next((proj for proj in projects if proj['name'] == project_name.replace('_',' ')), None)
 
     if project:
         project_type = project['filter_type']
