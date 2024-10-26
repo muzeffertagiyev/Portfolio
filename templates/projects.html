@@ -36,7 +36,7 @@ Projects -
               <img src="{{project.image_link[0]}}" class="img-fluid" alt="image - {{project.name}}" style="width: 800px; height: 320px;">
               <div class="portfolio-links">
                 <!-- <a href="{{project.image_link[0]}}" data-gallery="portfolioGallery" class="portfolio-lightbox"  title='<a href="{{url_for('project',project_name=project['name'])}}" title="More Details">More Details</a>'><i class="bx bx-plus"></i></a> -->
-                <a href="{{url_for('project',project_name=project['name'])}}" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="{{url_for('project',project_name=project['name'].replace(' ','-'))}}" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
