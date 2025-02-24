@@ -112,7 +112,7 @@ class EmailSender:
                     <p>{self.user_message}</p>
                 </div>
                 <div class="footer">
-                    <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
+                    <p>&copy; 2025 Muzaffar Taghiyev | All Rights Reserved</p>
                 </div>
             </div>
         </body>
@@ -240,7 +240,7 @@ class EmailSender:
         
                     </div>
                     <div class="footer">
-                        <p>&copy; 2024 Muzaffar Taghiyev | All Rights Reserved</p>
+                        <p>&copy; 2025 Muzaffar Taghiyev | All Rights Reserved</p>
                     </div>
                 </div>
             </body>
