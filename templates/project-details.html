@@ -33,18 +33,61 @@
           <a href="javascript:history.back()" class="btn btn-outline-secondary mb-3">
             <i class="bi bi-arrow-left"></i> Back
           </a>
-          <div class="project-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
+          {%if project.mode =="offline"%}
 
-              {% for img in project.image_link[1:] %}
-                <div class="swiper-slide">
-                  <img src="{{img}}" alt="{{project.name}}" class="img-fluid rounded">
-                </div>
-              {% endfor %}
-
+            {%if project.multimedia_type =="video"%}
+            <div class="gif-container text-center ">
+              <h3 class="mb-5 mt-3 text-primary font-weight-bold">GIF Preview</h3>
+              
+              <img src="{{ project.multimedia_link }}" alt="{{ project.name }}" class="img-fluid rounded" style="box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5), 0 3px 10px 0 rgba(0, 0, 0, 0.49);">
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
+
+            {%else%}
+              <div class="project-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                  {% for img in project.multimedia_link %}
+                    <div class="swiper-slide">
+                      <img src="{{img}}" alt="{{project.name}}" class="img-fluid rounded">
+                    </div>
+                  {% endfor %}
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            {%endif%}
+            {%else%}
+              <div class="container mt-5 mb-5 text-center">
+                <h1 class="text-center text-primary mb-5">Website Preview</h1>
+                <!-- Down arrow and Click Here text -->
+                <div class="text-center mt-3 text-dark">
+                  
+                  <p class="mt-2 fw-bold">
+                    Click Below Frame
+                  </p>
+                  <i class="bi bi-arrow-down-circle-fill" style="font-size: 2rem;"></i>
+                </div>
+                <div class="position-relative ">
+                  <!-- Iframe for the visual content with increased height -->
+                  <iframe 
+                    src="{{project.multimedia_link}}" 
+                    title="Embedded Website Preview" 
+                    frameborder="0" 
+                    class="w-75 border border-2 border-dark" 
+                    style="pointer-events: none; height: 350px;border-radius: 10px; overflow: hidden;">
+                  </iframe>
+                  
+                  <!-- Transparent overlay for click redirection -->
+                  <a 
+                    href="{{project.multimedia_link}}" 
+                    target="_blank" 
+                    class="stretched-link">
+                  </a>
+                </div>
+              </div>
+
+          {%endif%}
+          
         </div>
 
         <div class="col-lg-4">

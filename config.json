@@ -1,138 +1,272 @@
 {
+  
+  "city": "Vilnius",
+  "full_name": "Muzaffar Taghiyev",
+  "nationality":"Azerbaijani",
+  "age": "26",
+  "freelance": "Available",
+  "phone": "+370 617 46 491",
+  "email": "muzaffar.taghiyev@gmail.com",
+  "title": "Full-Stack Developer & RPA Specialist",
+  "social_networks": [
+  {"name": "github", "link": "https://github.com/muzeffertagiyev","logo":"https://cdn-icons-png.freepik.com/256/3291/3291695.png?semt=ais_hybrid"},
+  {"name": "linkedin", "link": "https://www.linkedin.com/in/muzaffar-taghiyev/","logo":"https://cdn-icons-png.freepik.com/256/3536/3536569.png?semt=ais_hybrid"},
+  {"name": "hackerrank", "link": "https://www.hackerrank.com/profile/t_muzeffer_1998","logo":"https://static-00.iconduck.com/assets.00/hackerrank-icon-465x512-7x2nqr1n.png"},
+  {"name": "facebook", "link": "https://www.facebook.com/profile.php?id=100010259614575","logo":"https://cdn-icons-png.freepik.com/256/12942/12942738.png?semt=ais_hybrid"},
+  {"name": "twitter", "link": "https://twitter.com/MuzuTagiyev","logo":"https://cdn-icons-png.freepik.com/256/12107/12107611.png?semt=ais_hybrid"},
+  {"name": "instagram", "link": "https://instagram.com/muzeffer?igshid=MzNlNGNkZWQ4Mg==","logo":"https://cdn-icons-png.freepik.com/256/1400/1400829.png?semt=ais_hybrid"}
+  ],
+  
+ 
+  "data_typed_items": "Full-Stack Development, RPA with Python,Front-End Development with React, Back-End Development with Node.js or Flask, Web Scraping, API Development,",
     
-    "city": "Vilnius,Lithuania",
-    "full_name": "Muzaffar Taghiyev",
-    "nationality":"Azerbaijani",
-    "age": "26",
-    "freelance": "Available",
-    "phone": "+370 617 46 491",
-    "email": "muzaffar.taghiyev@gmail.com",
-    "title": "Python Developer & Automation Specialist",
-    "social_networks": [
-    {"name": "github", "link": "https://github.com/muzeffertagiyev"},
-    {"name": "linkedin", "link": "https://www.linkedin.com/in/muzaffar-taghiyev/"},
-    {"name": "hackerrank", "link": "https://www.hackerrank.com/profile/t_muzeffer_1998"},
-    {"name": "facebook", "link": "https://www.facebook.com/profile.php?id=100010259614575"},
-    {"name": "twitter", "link": "https://twitter.com/MuzuTagiyev"},
-    {"name": "instagram", "link": "https://instagram.com/muzeffer?igshid=MzNlNGNkZWQ4Mg=="}
-    ],
+  
+  "about":{
+    "top_content": "I am a skilled Python and Full-Stack Developer with expertise in building efficient and scalable web applications, as well as automating workflows through RPA solutions and Web scraping.",
+    "middle_content": "Full-Stack Developer & Automation Specialist | HTML, CSS, JavaScript, React, Bootstrap, Flask, Node.js, Express.js, MongoDB, PostgreSQL, Python, RPA Development, Web Scraping,API Creation with Postman,",
+    "lower_content": "With a strong foundation in Python and web development, I specialize in creating dynamic and responsive web applications while also automating complex tasks. My front-end expertise includes HTML, CSS, JavaScript, React, and Bootstrap, enabling me to build engaging and user-friendly interfaces. On the back-end, I excel in Node.js, Express.js, Flask, and managing databases with MongoDB and PostgreSQL. Additionally, I have extensive experience in developing RPA solutions using Python and Selenium, as well as web scraping with BeautifulSoup. My passion lies in leveraging technology to solve complex challenges and deliver impactful solutions that are both efficient and scalable.",
     
+    },
     
-    "data_typed_items": "Python Developer, Web Scraping Specialist, RPA Developer with Python Selenium, QA Engineer with Python Selenium and Pytest,API Creator using Postman, Django & Flask Web Developer",
-      
-    
-    "about":{
-      "top_content": "I am a highly skilled Python developer specializing in Web Development, Web scraping, RPA, and QA. My expertise lies in building efficient solutions to automate and simplify complex tasks.",
-      "middle_content": "Aspiring Software Developer & QA Enthusiast | Python, Flask, Django, Web Scraping, RPA, QA Automation, API Creation with Postman",
-      "lower_content": "I have a strong passion for creating efficient and effective solutions to complex problems using Python. My core skills include developing web scraping applications with Selenium and BeautifulSoup, building RESTful APIs with Flask, and implementing RPA solutions. Additionally, I have a solid foundation in Quality Assurance, focusing on automated testing with Selenium and pytest. I stay updated with the latest trends in software development and enjoy participating in online coding challenges in my free time."
-      
-      },
-      
-    
-    "resume":[
-        {"other_skills":[
-          {"language_skills": ["Azerbaijani - Native", "English - C1","Russian - B1","Turkish - C2", "German - A1"]},
-          {"soft_skills": ["Time Management", "Teamwork", "Communicative","Quick Learner","Attention to detail","Problem solving","Adaptibility"]}
-        ]},
-        {"education": [
-          {"degree": "Master's degree in Computer Engineering-Data Science", 
-          "institution": "Vistula University - Warsaw,Poland",
-          "period":"October 2022 - April 2024",
-          "description":" - During my Master's program, I gained comprehensive knowledge and hands-on experience in several key areas including Python3, image processing and recognition, data analytics and visualization with Python, Robotic Process Automation (RPA), Python web scraping (Selenium & BeautifulSoup), QA automation, and the Flask framework."},
-          {"degree": "Bachelor's degree in Computer Engineering", "institution": "Azerbaijan State Oil and Industry University - Baku,Azerbaijan",
-            "period":"September 2015 - June 2019",
-            "description":" - My Bachelor's degree provided a solid foundation in Help Desk support, computer networking, front-end development, data structures and algorithms, AutoCAD, computer architecture, operating systems, software engineering, and cybersecurity."}
-        ]},
-        {"professional_experience": [
-          {"title": "Customs Declarant", 
-          "company": "Socar Polymer LLC (Logistics Department) - Sumqayit,Azerbaijan ",
-          "period":"April 2019 - October 2022",
-          "duties":["<strong>Certificate - Most Supportive Employee of 2021</strong>","Reviewing of customs documentation to ensure all information has been provided before customs clearance","Resolution of rejected customs entries","Monthly update of exchange rates and commodity codes","Ensuring that all necessary permits and clearances are obtained for exported items"]},
-          {"title": "Help Desk Internship", 
-            "company": "Mobicom LLC - Baku, Azerbaijan",
-            "period":"February 2019 - June 2019",
-            "duties":["Responding to client support queries","Diagnosing issues with computer software, peripherals, and hardware","Providing support in person , over the phone or via remote access","Running software diagnostic tools and physically inspecting hardware systems","Talking to clients through basic problem-solving processes"]}
-        ]},
+  
+  "resume":[
+      {"other_skills":[
+        {"language_skills": ["Azerbaijani - Native", "English - C1","Russian - B1","Turkish - C2", "German - A1"]},
+        {"soft_skills": ["Time Management", "Teamwork", "Communicative","Quick Learner","Attention to detail","Problem solving","Adaptibility"]},
+      ]},
+      {"education": [
+        {"degree": "Master's degree in Computer Engineering-Data Science", 
+        "institution": "Vistula University - Warsaw,Poland",
+        "period":"October 2022 - April 2024",
+        "description":" - During my Master's program, I gained comprehensive knowledge and hands-on experience in several key areas including Python3, image processing and recognition, data analytics and visualization with Python, Robotic Process Automation (RPA), Python web scraping (Selenium & BeautifulSoup), QA automation, and the Flask framework."},
+        {"degree": "Bachelor's degree in Computer Engineering", "institution": "Azerbaijan State Oil and Industry University - Baku,Azerbaijan",
+          "period":"September 2015 - June 2019",
+          "description":" - My Bachelor's degree provided a solid foundation in Help Desk support, computer networking, front-end development, data structures and algorithms, AutoCAD, computer architecture, operating systems, software engineering, and cybersecurity."},
+      ]},
+      {"professional_experience": [
+        {"title": "Customs Declarant in Logistics", 
+        "company": "Socar Polymer LLC - Sumqayit,Azerbaijan ",
+        "period":"April 2019 - October 2022",
+        "duties":["<strong>Certificate - Most Supportive Employee of 2021</strong>","Worked with logistics companies and truck drivers to make sure shipments were delivered on time","Checked customs documents to make sure all the required information was included before clearance","Solved problems with customs entries that were rejected by finding and fixing any mistakes"," Updated exchange rates and commodity codes every month to keep everything accurate for customs declarations","Communicated with warehouse and transportation teams to track shipments and handle any issues that might delay customs clearance"]},
         
-        {"certificates": [
-          {"title": "Web Development Path with Intermediate Django", 
-          "issued_by": "Patika.dev",
-          "date":"December 2023",
-          "link": "https://academy.patika.dev/certificates/fd09e054",
-          "skills":"· Django · Nosql-Mongodb · Advanced Python3 · Object-Oriented Programming (OOP)"},
-          {"title": "100 Days of Code: The Complete Python Pro Bootcamp for 2023", 
-          "issued_by": "Udemy",
-          "date":"October 2023",
-          "link": "https://www.udemy.com/certificate/UC-d5b5c27c-0c97-47f7-9d74-913bfb846758/",
-          "skills":"· API testing using Postman · Python Web Scraping(Selenium & BeautifulSoup) · RESTful API with Flask · Cascading Style Sheets (CSS) · Twilio · NumPy · Flask · HTML5 · SQLAlchemy · JSON · Bootstrap · Working with APIs · Data Analytics and Visualization with python · Turtle Graphics · pandas · CSV · Python3 · Simple Mail Transfer Protocol (SMTP) · Plotly · Tkinter"},
-          
-          {"title": "SQL (Intermediate) Certificate", 
-          "issued_by": "HackerRank",
-          "date":"October 2023",
-          "link": "https://www.hackerrank.com/certificates/f098c3aecab9",
-          "skills":"· Intermediate SQL Joins · SQL Intermadiate"},
-          
-          {"title": "Linux Mastery: Master the Linux Command Line in 11.5 Hours ", 
-          "issued_by": "Udemy",
-          "date":"May 2023",
-          "link": "https://www.udemy.com/certificate/UC-a3dcfd66-85f2-4cc1-b40e-dc76006e297c/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email",
-          "skills":"· Bash script · Linux commands · Crontab"},
-          
-          {"title": "Python development Industry Training 4 weeks(20 hours + Individual Work)", 
-          "issued_by": "Brainnest",
-          "date":"February 2023",
-          "link": "#",
-          "skills":"· FTP with Python · Python Scripts · Working with APIs · Python3 · Tkinter · pytest · Unittest"}
-          
-        ]},
         
-        {"skills": [
-          {"category": "Python Development", "skills": [
-            {"name": "Python3", "value": "90"},
-            {"name": "Flask Framework", "value": "80"},
-            {"name": "Django Framework", "value": "50"},
-            {"name": "RESTFul API with Flask using Postman", "value": "60"}
-          ]},
-          {"category": "Web Scraping & Automation", "skills": [
-            {"name": "Python Web Scraping (Selenium & BeautifulSoup)", "value": "100"},
-            {"name": "RPA with Python", "value": "90"},
-            {"name": "Selenium", "value": "85"}
-          ]},
-          {"category": "Quality Assurance", "skills": [
-            {"name": "Automated Testing with Selenium", "value": "80"},
-            {"name": "pytest", "value": "70"},
-            {"name": "Q&A", "value": "50"},
-            {"name": "API Creation with Postman", "value": "75"}
-          ]},
-          {"category": "Data Analysis", "skills": [
-            {"name": "Intermediate SQL", "value": "80"},
-            {"name": "Pandas", "value": "85"},
-            {"name": "NumPy", "value": "80"},
-            {"name": "Matplotlib", "value": "70"},
-            {"name": "Seaborn", "value": "50"}
-          ]},
-          {"category": "Database Management", "skills": [
-            {"name": "SQLAlchemy", "value": "100"},
-            {"name": "PostgreSQL", "value": "70"},
-            {"name": "phpMyAdmin", "value": "70"}
-          ]},
-          {"category": "Other Skills", "skills": [
-            {"name": "Linux Commands", "value": "80"},
-            {"name": "GitHub", "value": "70"},
-            {"name": "HTML5", "value": "100"},
-            {"name": "CSS3", "value": "80"},
-            {"name": "Bootstrap", "value": "80"},
-            {"name": "JavaScript", "value": "30"},
-            {"name": "Microsoft Office", "value": "70"},
-            {"name": "Jira & Trello", "value": "50"}
+        {"title": "Technical Support Intern", 
+          "company": "Mobicom LLC - Baku, Azerbaijan",
+          "period":"February 2019 - June 2019",
+          "duties":["Responding to client support queries","Diagnosing issues with computer software, peripherals, and hardware","Providing support in person , over the phone or via remote access","Running software diagnostic tools and physically inspecting hardware systems","Talking to clients through basic problem-solving processes"]},
+      ]},
+      
+      {"certificates": [
+        {"title": "Web Development Path with Intermediate Django", 
+        "issued_by": "Patika.dev",
+        "date":"December 2023",
+        "link": "https://academy.patika.dev/certificates/fd09e054",
+        "skills":"· Django · Nosql-Mongodb · Advanced Python3 · Object-Oriented Programming (OOP)"},
+        {"title": "100 Days of Code: The Complete Python Pro Bootcamp for 2023", 
+        "issued_by": "Udemy",
+        "date":"October 2023",
+        "link": "https://www.udemy.com/certificate/UC-d5b5c27c-0c97-47f7-9d74-913bfb846758/",
+        "skills":"· API testing using Postman · Python Web Scraping(Selenium & BeautifulSoup) · RESTful API with Flask · Cascading Style Sheets (CSS) · Twilio · NumPy · Flask · HTML5 · SQLAlchemy · JSON · Bootstrap · Working with APIs · Data Analytics and Visualization with python · Turtle Graphics · pandas · CSV · Python3 · Simple Mail Transfer Protocol (SMTP) · Plotly · Tkinter"},
+        
+        {"title": "SQL (Intermediate) Certificate", 
+        "issued_by": "HackerRank",
+        "date":"October 2023",
+        "link": "https://www.hackerrank.com/certificates/f098c3aecab9",
+        "skills":"· Intermediate SQL Joins · SQL Intermadiate"},
+        
+        {"title": "Linux Mastery: Master the Linux Command Line in 11.5 Hours ", 
+        "issued_by": "Udemy",
+        "date":"May 2023",
+        "link": "https://www.udemy.com/certificate/UC-a3dcfd66-85f2-4cc1-b40e-dc76006e297c/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email",
+        "skills":"· Bash script · Linux commands · Crontab"},
+        
+        {"title": "Python development Industry Training 4 weeks(20 hours + Individual Work)", 
+        "issued_by": "Brainnest",
+        "date":"February 2023",
+        "link": "#",
+        "skills":"· FTP with Python · Python Scripts · Working with APIs · Python3 · Tkinter · pytest · Unittest"},
+        
+      ]},
+      
+      {"skills": [
+        {"category": "Python Development", "skills": [
+          {"name": "Python3", "value": "90"},
+          {"name": "Flask Web Framework", "value": "80"},
+          {"name": "Django Web Framework", "value": "50"},
+          {"name": "RESTful API Development with Flask", "value": "60"}
+        ]},
+        {"category": "Web Scraping & Automation", "skills": [
+          {"name": "Web Scraping with Selenium & BeautifulSoup", "value": "100"},
+          {"name": "Robotic Process Automation (RPA) with Python", "value": "90"},
+          {"name": "Selenium", "value": "85"}
+        ]},
+        {"category": "Quality Assurance", "skills": [
+          {"name": "Automated Testing with Selenium", "value": "80"},
+          {"name": "pytest", "value": "70"},
+          {"name": "Quality Assurance (QA)", "value": "50"},
+          {"name": "API Testing with Postman", "value": "75"}
+        ]},
+        {"category": "Database Management", "skills": [
+          {"name": "SQLAlchemy", "value": "100"},
+          {"name": "PostgreSQL", "value": "70"},
+          {"name": "phpMyAdmin", "value": "70"}
+        ]},
+        {"category": "Data Analysis", "skills": [
+          {"name": "SQL", "value": "80"},
+          {"name": "Pandas", "value": "85"},
+          {"name": "NumPy", "value": "80"},
+          {"name": "Matplotlib", "value": "70"},
+          {"name": "Seaborn", "value": "50"}
+        ]},
+        {"category": "Other Skills", "skills": [
+          {"name": "Linux Commands", "value": "80"},
+          {"name": "GitHub", "value": "70"},
+          {"name": "HTML5", "value": "100"},
+          {"name": "CSS3", "value": "80"},
+          {"name": "Bootstrap", "value": "80"},
+          {"name": "JavaScript", "value": "30"},
+          {"name": "Microsoft Office", "value": "70"},
+          {"name": "Jira & Trello", "value": "50"}
           ]}
-        ]}
-          
+        ]},
       ],
     
-    
-    
-    "contact":{
-      "address": "J.Balčikonio g.3, Vilnius,Lithuania, LT-08247",
-      "address_map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1152.2121508115224!2d25.282593845305485!3d54.71975111424548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd914bb933d827%3A0xb1d772006abe01ff!2sJ.%20Bal%C4%8Dikonio%20g.%203%2C%2008200%20Vilnius!5e0!3m2!1sen!2slt!4v1689763045589!5m2!1sen!2slt"}
-  }
+    "projects":[
+        
+        {"id":1,"name": "Booking.com Selenium Bot", 
+        "filter_type": "rpa",
+        "link":"https://github.com/muzeffertagiyev/BookingComSeleniumBot",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/BookingCom/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/BookingCom/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/BookingCom/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/BookingCom/4.png?raw=true"],
+        "description":"This project is a Selenium bot that automates the process of searching for hotels on Booking.com, applying filters, sorting the results, and sending a detailed report via email. The bot is capable of selecting the destination, dates, and number of adults, applying star rating filters, sorting results by price (lowest first), and then generating a report of the hotel options. This report includes the hotel's name, price, score, and a direct link to the hotel page."},
+        {"id":2,"name": "Material Classification Web App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/MaterialClassificationThesis",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/MaterialClassification/6.png?raw=true"],
+        "description":"This Flask web application classifies materials from images using machine learning. Users can upload images, and the app predicts the material using a pre-trained model. Features include user registration, login, profile management,and a contact form for reaching the admin."},
+        {"id":3,"name": "Orange Source Demo Selenium Bot", 
+        "filter_type": "rpa",
+        "link":"https://github.com/muzeffertagiyev/OrangeSourceDemoSeleniumBot",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/OrangeHRM/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/OrangeHRM/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/OrangeHRM/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/OrangeHRM/4.png?raw=true"],
+        "description":"  The bot logs into the OrangeHRM system, navigates to the leave assignment section, fills in the required details for each employee, and assigns leave. It also generates a report indicating the success or failure of each leave assignment."},
+        {"id":4,"name": "Smart Edu Django App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/SmartEduDjangoApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/SmartEduDjangoApp/1.png?raw=true"],
+        "description":"This Django web application is an educational platform that allows users to register as students or teachers, enroll in courses, and manage their profiles. Teachers can create and manage courses, while students can browse, search, and enroll in courses. The application features user authentication, course categorization, and a contact form."},
+        {"id":5,"name": "Nutrition Counter Flask App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/NutritionCounterFlaskWebApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CalorieCounterWebApplication/6.png?raw=true"],
+        "description":"The Calorie Counter Web Application is designed to help users manage their calorie intake and monitor their daily activities' impact on their health. It provides a simple and user-friendly interface for users to register, log in, add their personal details, calculate their BMI, and track their calorie consumption through various activities."},
+        {"id":6,"name": "To Do List Flask App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/ToDoListFlaskWebApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TodoListWebApp/6.png?raw=true"],
+        "description":"Manage your tasks efficiently with this Flask-based web app. Users can register and log in to create and manage their tasks. The app allows you to mark tasks as completed, update task details, and reset passwords. Additionally, users can change their username and the app features a responsive design for various devices. Ideal for staying organized and on top of your to-dos."},
+        {"id":7,"name": "PDF to Audio Converter GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/PDFtoAudioGUI",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/PDFtoAudioGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/PDFtoAudioGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/PDFtoAudioGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/PDFtoAudioGUI/4.png?raw=true"],
+        "description":"The PDF to Audio Converter is a Python Tkinter GUI  that converts PDF files into audio (MP3) format. It uses PyPDF2 to extract text from PDFs and gTTS to convert text to speech. Users can select a PDF, and the app will convert it to audio. After conversion, users can play or download the audio file. Note: The play button works only on Mac OS."},
+        {"id":8,"name": "Cafe-Wifi Flask Web App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/Cafe-WifiFlaskWebApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/Cafe&WifiWebApp/6.png?raw=true"],
+        "description":"The Flask Cafe & Wifi App is a web platform designed for users to review and discover cafes. Once registered and logged in, users can add cafes they have visited, including details like the cafe's name, location, amenities, and coffee prices. Users can also search for cafes by location and view a list of matching cafes with detailed information. Additionally, the app allows users to update or delete cafes they have added, manage their profile, and reset their passwords. This application utilizes Flask, SQLAlchemy, and Flask-Login for a seamless user experience."},
+        {"id":9,"name": "Top Ten Movies Web App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/TopTenMoviesFlaskWebApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TopTenMoviesWebApp/6.png?raw=true"],
+        "description":"The Top 10 Movies Web App is a platform where users can create personalized top 10 movie lists. After registering and logging in, users can search for movies via the Movie API and add them to their lists. Users can also rate movies, update or delete entries, and manage their accounts. This app is built using Python Flask and features CRUD operations with SQLite for verified users."},
+        {"id":10,"name": "Typing Speed Test GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/TypingSpeedTestGUIApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TypingTestingGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TypingTestingGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TypingTestingGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/TypingTestingGUI/4.png?raw=true"],
+        "description":"The Typing Speed Test Application helps users enhance typing speed and accuracy. Type random words within a 60-second timer, and the app will measure your words per minute (WPM) and accuracy. Restart the test or close the app as needed. Built with Python and Tkinter, it's a fun way to practice typing."},
+        {"id":11,"name": "Automated Email Sender", 
+        "filter_type": "automation",
+        "link":"https://github.com/muzeffertagiyev/AutomatedEmailSender",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedEmailSender/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedEmailSender/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedEmailSender/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedEmailSender/4.png?raw=true"],
+        "description":"The Automated Email Sender app enables companies to automatically send emails to clients daily. It uses Python libraries like schedule and smtplib to handle email sending and scheduling. The app pulls email data from an external API, prepares the email content, attaches files, and logs the email status. Ideal for businesses needing regular communication with clients."},
+        {"id":12,"name": "Image Water Marking GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/ImageWatermarkingGUIApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ImageWatermarkingGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ImageWatermarkingGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ImageWatermarkingGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ImageWatermarkingGUI/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ImageWatermarkingGUI/5.png?raw=true"],
+        "description":"The Image Watermarking Application allows users to upload images and add customizable text or logo watermarks. Built with Python and Tkinter, the app lets you adjust watermark position, color, and size, and then save the watermarked image to your desired location. Perfect for personalizing or protecting your images."},
+        {"id":13,"name": "File Organizer GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/FileOrganizer",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/5.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FileOrganizerGUI/6.png?raw=true"],
+        "description":"The File Organizer App allows users to effortlessly organize files in a specified directory by their type. Built with Python and Tkinter, the app provides a user-friendly GUI where users can input a directory path and let the app handle the rest. The app categorizes files into folders based on their extensions, ensuring a well-organized directory structure. Ideal for keeping your files tidy and easy to navigate."},
+        {"id":14,"name": "Count Down GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/CountDownApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CountDownGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CountDownGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CountDownGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CountDownGUI/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/CountDownGUI/5.png?raw=true"],
+        "description":"The Countdown App is a Python-based application with a Tkinter GUI, enabling users to track time effectively. Users can set a countdown timer by inputting hours, minutes, and seconds, and control it using start, stop, and reset buttons. The app also displays the current time and alerts users when the countdown reaches zero, making it a practical tool for time management."},
+        {"id":15,"name": "Weather Broadcast GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/WeatherApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/WeatherBroadcastGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/WeatherBroadcastGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/WeatherBroadcastGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/WeatherBroadcastGUI/4.png?raw=true"],
+        "description":"The Weather App is a Python-based application with a Tkinter GUI that displays current weather conditions and forecasts for specified locations. Users can input a city name, and the app fetches weather data, including temperature, humidity, wind speed, and more, using the OpenWeatherMap API. The app also supports autocomplete for city names, displays weather icons, and shows local time for the specified location."},
+        {"id":16,"name": "To Do List GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/ToDoListApp",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ToDoListGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ToDoListGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ToDoListGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ToDoListGUI/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ToDoListGUI/5.png?raw=true"],
+        "description":"The To-Do List GUI application is built using Python and the Tkinter library. It allows users to add, delete, save, and load tasks, providing an easy way to manage their to-do lists."},
+        {"id":17,"name": "Automated File Transfer", 
+        "filter_type": "automation",
+        "link":"https://github.com/muzeffertagiyev/AutomatedFileTransfer",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedFileTransfer/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedFileTransfer/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/AutomatedFileTransfer/3.png?raw=true"],
+        "description":"The Automated File Transfer app is designed to streamline the process of transferring files from an FTP server to an internal network. Utilizing Python and essential libraries like ftplib, shutil, and schedule, the app logs into the FTP server, downloads files from a specified directory, and transfers them to a local directory. The application runs daily at a set time, ensuring consistent and automated file management. The logging feature records the status of each transfer, providing insights into successful operations and any errors encountered."},
+        {"id":18,"name": "Zillow Scraper and Form Filler Bot", 
+        "filter_type": "rpa",
+        "link":"https://github.com/muzeffertagiyev/DataEntrySeleniumAndBeautifulSoup",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ZillowScraperandFormFillerBot/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ZillowScraperandFormFillerBot/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/ZillowScraperandFormFillerBot/3.png?raw=true"],
+        "description":"The Zillow Scraper and Form Filler Bot extracts real estate data (prices, links, and addresses) from Zillow using Beautiful Soup and inputs this data into a Google Form using Selenium.Installation involves cloning the repo, installing dependencies, setting up ChromeDriver, and configuring URLs in a config.json file."},
+        {"id":19,"name": "Blog Post Web App", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/BlogPostWebpage",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/BlogPostWebApp/1.png?raw=true"],
+        "description":"The Flask Blog Application is a platform for managing blog posts with secure user registration, post creation, commenting, and admin controls. It uses Gravatar for avatars, CKEditor for rich text, and Flask-Bootstrap for a responsive design. Configuration involves setting a secret key and database URI. To use, run the app, open in a browser, register, and start posting. The project includes templates, static files, forms, and models, with routes for all actions. Admin features restrict certain actions for security, and contributions are welcome with guidelines for documentation and testing."},
+        {"id":20,"name": "Job Easy Apply on Linkedin Bot", 
+        "filter_type": "rpa",
+        "link":"https://github.com/muzeffertagiyev/JobApplyOnLinkedInBotSelenium",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/EasyApplyLinkedinBot/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/EasyApplyLinkedinBot/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/EasyApplyLinkedinBot/3.png?raw=true"],
+        "description":"The Easy Apply LinkedIn Bot automates applying for jobs on LinkedIn. It logs in, searches for jobs by keywords and location, filters for 'Easy Apply' positions, and submits applications using a provided phone number. It uses Selenium for automation and requires a config.json for credentials and settings."},
+        {"id":21,"name": "Internet Speed Twitter Complaint Bot", 
+        "filter_type": "rpa",
+        "link":"https://github.com/muzeffertagiyev/InternetSpeedTwitterComplaintBotSelenium",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/InternetSpeedComplaintInTwitterSeleniumBot/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/InternetSpeedComplaintInTwitterSeleniumBot/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/InternetSpeedComplaintInTwitterSeleniumBot/3.png?raw=true"],
+        "description":"The Internet Speed Complaint in Twitter Bot automates the process of monitoring your internet speed and tweeting a complaint if it’s below a specified threshold. It uses Selenium WebDriver to check speed via Speedtest.net and posts a tweet to Twitter using your credentials if the speed falls short of your internet provider's promises. Configuration is done through a config.json file for credentials and thresholds."},
+        {"id":22,"name": "Quiz Game GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/QuizGame",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizzlerGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizzlerGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizzlerGUI/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizzlerGUI/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizzlerGUI/5.png?raw=true"],
+        "description":"Quizzler is a Python quiz app using Tkinter for a graphical interface. It retrieves true/false questions from the Open Trivia Database and provides a scoring system with feedback on user answers. The app tracks questions and answers, displays results, and manages interactions through a clean, user-friendly interface. When the user clicks to the true button if the answer true then the background of the question will be green, in another case red. Run the app to start answering questions and see your performance in real-time."},
+        {"id":23,"name": "Grocery Bud With JS", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/GroceryBugWithJS",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/GroceryBudJSWebApp/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/GroceryBudJSWebApp/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/GroceryBudJSWebApp/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/GroceryBudJSWebApp/4.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/GroceryBudJSWebApp/5.png?raw=true"],
+        "description":"Grocery Bud is a web application for managing grocery lists, featuring functionality to add, edit, delete, and clear items. It uses HTML, CSS, and JavaScript for a responsive, interactive interface. Users can manage their grocery list efficiently, with items stored in local storage for persistence across sessions. The app includes components for item submission, editing, deletion, and clearing the entire list, with JavaScript handling user interactions and local storage operations."},
+        
+        {"id":24,"name": "Quiz App With JS", 
+        "filter_type": "web",
+        "link":"https://github.com/muzeffertagiyev/QuizAppWithJS",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizJSWebApp/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizJSWebApp/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/QuizJSWebApp/3.png?raw=true"],
+        "description":"Quiz JS App is a straightforward web application for taking quizzes, built with HTML, CSS, and JavaScript. Users answer multiple-choice questions, with their scores calculated and displayed after submission. The quiz dynamically loads questions, and users can start over by reloading the app. The structure includes an HTML file for layout, a CSS file for styling, and a JavaScript file for managing quiz logic and user interactions."},
+        {"id":25,"name": "Cheapest Flight Email Sender", 
+        "filter_type": "automation",
+        "link":"https://github.com/muzeffertagiyev/CheapestFlightEmailSender",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FlightTrackerAndNotificationSystem/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FlightTrackerAndNotificationSystem/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FlightTrackerAndNotificationSystem/3.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/FlightTrackerAndNotificationSystem/4.png?raw=true"],
+        "description":"Flight Tracker and Notification System is an application that monitors flight prices and alerts users about deals. It fetches flight data from Google Sheets, queries a flight search API for the best deals, and sends email notifications to users when prices drop below a set threshold. The system includes modules for interacting with Google Sheets, managing flight data, searching for deals, and sending notifications. Make sure to configure environment variables for API access and email settings."},
+        {"id":26,"name": "Flash Card English To Turkish GUI", 
+        "filter_type": "gui",
+        "link":"https://github.com/muzeffertagiyev/FlashCardEnglishToTurkishGUI",
+        "image_link":["https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/English-TurkishFlashCardGUI/1.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/English-TurkishFlashCardGUI/2.png?raw=true","https://github.com/muzeffertagiyev/ImagesOfProjects/blob/main/English-TurkishFlashCardGUI/3.png?raw=true"],
+        "description":"English-Turkish Flashcard GUI is a vocabulary learning tool that uses flashcards to teach English-Turkish word pairs. Built with Tkinter for the interface and pandas for data management, the app displays flashcards with English words and flips to show Turkish translations. Users can mark words as known or unknown, and the app saves unlearned words to a CSV file for future study. The project includes scripts for running the application, handling vocabulary data, and managing flashcard images."},
+      ],
+ 
+  "contact":{
+    "address": "J.Balčikonio g.3, Vilnius,Lithuania, LT-08247",
+    "address_map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1152.2121508115224!2d25.282593845305485!3d54.71975111424548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd914bb933d827%3A0xb1d772006abe01ff!2sJ.%20Bal%C4%8Dikonio%20g.%203%2C%2008200%20Vilnius!5e0!3m2!1sen!2slt!4v1689763045589!5m2!1sen!2slt"}
+}

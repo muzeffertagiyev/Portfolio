@@ -697,6 +697,28 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+.portfolio .portfolio-wrap .initial-project-detail{
+  height: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding:15px 20px;
+  gap:1rem;
+}
+.portfolio .portfolio-wrap .initial-project-detail h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.portfolio .portfolio-wrap .initial-project-detail p{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.portfolio .portfolio-wrap .initial-project-detail span{
+  color:#58c065;
+}
 
 
 
@@ -804,6 +826,7 @@ section {
   padding-top: 40px;
 }
 
+
 .project-details .project-details-slider img {
   width: 100%;
 }
@@ -861,6 +884,8 @@ section {
 .project-details .portfolio-description p {
   padding: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -1141,6 +1166,3 @@ section {
 .profile-image{
   border-radius:30px;
 }
-
-
-

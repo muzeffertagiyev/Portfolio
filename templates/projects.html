@@ -33,9 +33,13 @@ Projects -
         {% for project in personal_data.projects%}
           <div class="col-lg-4 col-md-6 portfolio-item filter-{{project.filter_type}}">
             <div class="portfolio-wrap">
-              <img src="{{project.image_link[0]}}" class="img-fluid" alt="image - {{project.name}}" style="width: 800px; height: 320px;">
+              <div class="initial-project-detail">
+                <h4>{{project.name}}</h4>
+                <p>{{project.initial_project_detail|safe}}</p>
+              </div>
+              <!-- <img src="{{project.multimedia_link[0]}}" class="img-fluid" alt="image - {{project.name}}" style="width: 800px; height: 320px;"> -->
               <div class="portfolio-links">
-                <!-- <a href="{{project.image_link[0]}}" data-gallery="portfolioGallery" class="portfolio-lightbox"  title='<a href="{{url_for('project',project_name=project['name'])}}" title="More Details">More Details</a>'><i class="bx bx-plus"></i></a> -->
+                <!-- <a href="{{project.multimedia_link[0]}}" data-gallery="portfolioGallery" class="portfolio-lightbox"  title='<a href="{{url_for('project',project_name=project['name'])}}" title="More Details">More Details</a>'><i class="bx bx-plus"></i></a> -->
                 <a href="{{url_for('project',project_name=project['name'].replace(' ','_'))}}" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
